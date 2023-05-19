@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.navbar{
+	background-color:#014a8b;
+}
+nav ul li a:hover{
+	color:#47b2e4!important;
+}
+.dropdown:hover.drop1{
+	display:block;
+}
+.dropdown-menu li{
+	 position:relative;
+}
+.submenu{
+	display:none;
+	position:absolute;
+	right:100%;
+	top:-7px;
+}
+.deep:hover.submenu{
+	display:block;
+}
+
